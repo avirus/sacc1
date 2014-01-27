@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="src" root="..">
+      <df name="auth">
+        <df name="include">
+          <df name="samba">
+            <df name="nsswitch">
+              <in>sys_nss.h</in>
+              <in>winbind_nss_config.h</in>
+              <in>winbindd_nss.h</in>
+            </df>
+          </df>
+          <in>Array.h</in>
+          <in>GNUregex.h</in>
+          <in>Stack.h</in>
+          <in>asn1.h</in>
+          <in>cache_snmp.h</in>
+          <in>config.h</in>
+          <in>hash.h</in>
+          <in>heap.h</in>
+          <in>initgroups.h</in>
+          <in>md5.h</in>
+          <in>ntlmauth.h</in>
+          <in>parse.h</in>
+          <in>radix.h</in>
+          <in>rfc1035.h</in>
+          <in>rfc2617.h</in>
+          <in>snmp-internal.h</in>
+          <in>snmp-mib.h</in>
+          <in>snmp.h</in>
+          <in>snmp_api.h</in>
+          <in>snmp_api_error.h</in>
+          <in>snmp_api_util.h</in>
+          <in>snmp_client.h</in>
+          <in>snmp_coexist.h</in>
+          <in>snmp_debug.h</in>
+          <in>snmp_error.h</in>
+          <in>snmp_impl.h</in>
+          <in>snmp_msg.h</in>
+          <in>snmp_pdu.h</in>
+          <in>snmp_session.h</in>
+          <in>snmp_util.h</in>
+          <in>snmp_vars.h</in>
+          <in>snprintf.h</in>
+          <in>splay.h</in>
+          <in>squid_types.h</in>
+          <in>tempnam.h</in>
+          <in>util.h</in>
+          <in>version.h</in>
+        </df>
+        <df name="lib">
+          <in>Array.c</in>
+          <in>GNUregex.c</in>
+          <in>Stack.c</in>
+          <in>base64.c</in>
+          <in>dlmalloc.c</in>
+          <in>drand48.c</in>
+          <in>getfullhostname.c</in>
+          <in>hash.c</in>
+          <in>heap.c</in>
+          <in>html_quote.c</in>
+          <in>inet_ntoa.c</in>
+          <in>initgroups.c</in>
+          <in>iso3307.c</in>
+          <in>md5.c</in>
+          <in>ntlmauth.c</in>
+          <in>radix.c</in>
+          <in>rfc1035.c</in>
+          <in>rfc1123.c</in>
+          <in>rfc1738.c</in>
+          <in>rfc2617.c</in>
+          <in>safe_inet_addr.c</in>
+          <in>snprintf.c</in>
+          <in>splay.c</in>
+          <in>strerror.c</in>
+          <in>stub_memaccount.c</in>
+          <in>tempnam.c</in>
+          <in>util.c</in>
+          <in>uudecode.c</in>
+        </df>
+        <df name="MySQL">
+        </df>
+        <df name="NCSA">
+          <in>crypt_md5.c</in>
+          <in>crypt_md5.h</in>
+          <in>htpasswd.c</in>
+          <in>ncsa_auth.c</in>
+        </df>
+        <df name="SMB">
+          <in>smb_auth.c</in>
+        </df>
+      </df>
+      <df name="sacc1_1">
+      </df>
+      <in>cisco.cpp</in>
+      <in>main.cpp</in>
+      <in>mylog.cpp</in>
+      <in>mylog.h</in>
+      <in>squid.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>../Makefile.am</itemPath>
+      <itemPath>sacc1_1-Makefile.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>..</Elem>
+  </sourceRootList>
+  <projectmakefile>sacc1_1-Makefile.mk</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>..</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile.am</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile.am clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="../auth/lib/Array.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/GNUregex.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/Stack.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/base64.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/getfullhostname.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/hash.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/heap.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/html_quote.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/initgroups.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/iso3307.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/md5.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/ntlmauth.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/radix.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/rfc1035.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/rfc1123.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/rfc1738.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/rfc2617.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/safe_inet_addr.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/snprintf.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/splay.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/strerror.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/stub_memaccount.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/tempnam.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/util.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../auth/lib/uudecode.c" ex="false" tool="0" flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../main.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include</pElem>
+            <pElem>/usr/local/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>/usr/include</Elem>
+            <Elem>/usr/local/include</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <folder path="sacc1/auth/NCSA">
+        <cTool>
+          <incDir>
+            <pElem>../auth/include</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+    </conf>
+  </confs>
+</configurationDescriptor>

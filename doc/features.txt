@@ -1,0 +1,11 @@
+#		$Author: slavik $ $Date: 2012-11-20 17:39:26 +0600 (Вт, 20 ноя 2012) $
+#		$Id: features.txt 112 2012-11-20 11:39:26Z slavik $
+
+Small amounts of features:
+
+1. signals
+1.1 HUP - recreate squid.conf, and send "reconfigure" signal to squid
+1.2 TERM - terminate SAcc
+1.3 USR1 - send "logrotate" to Squid, and clean DB (like monthly clean)
+1.4 USR2 - set offset=0 and clean all records, for recount
+2. make uninstall - saves sql tables to file, and removes all in $prefix$/sacc
