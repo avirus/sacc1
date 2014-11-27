@@ -17,8 +17,7 @@ Hardware configuration doesn't matter, but at least iP100 with 64M RAM.
 How I can install required components? 
    If you don't has it installed download MySQL, Apache, PHP and install
    it how it describes in their README files.
-latest version you can find at [http://sacc.westural.ru] or [www.security.perm.ru] 
-(most materials on RUSSIAN)
+latest version you can find at gihub - https://github.com/avirus
 
 This software used code originally developed by following teams:
 Samba Team (http://www.samba.org/)
